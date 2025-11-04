@@ -1,0 +1,51 @@
+/* Wrapper utama */
+.generations-wrapper {
+  background-color: #f4f6f8; /* Sedikit abu-abu */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.generations-wrapper h2 {
+  margin-top: 0;
+  color: #222; /* Warna lebih gelap */
+}
+
+/* Kontainer untuk kartu-kartu */
+.generations-container {
+  display: flex; 
+  justify-content: space-around; 
+  gap: 15px; /* Jarak antar kartu */
+  flex-wrap: wrap; /* Agar rapi di layar kecil */
+}
+
+/* Styling untuk setiap kartu "Anak" */
+.gen-card.console-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px 25px;
+  min-width: 150px; /* Sedikit lebih lebar */
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.gen-card.console-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Bayangan lebih jelas */
+  cursor: pointer;
+}
+
+.gen-card.console-card h3 {
+  margin: 0;
+  color: #0056b3; /* Biru PlayStation */
+}
+
+.gen-card.console-card p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
+}
