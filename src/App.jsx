@@ -7,7 +7,7 @@ const App = () => {
     <div className='bg-gray-600 '>
       <Header />
       <Home />
-      <Footer title= 'Footer'/>
+      <Footer />
     </div>
   )
 }

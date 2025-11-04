@@ -1,8 +1,8 @@
-const Footer = ({ title }) => {
+const Footer = () => {
     return (
-        <div> 
-            {title}
-        </div>
+        <footer className="bg-gray-800 text-white p-4 text-center">
+            <p>Footer Content Here</p>
+        </footer>
     )
 }
 
