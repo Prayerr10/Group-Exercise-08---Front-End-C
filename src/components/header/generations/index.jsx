@@ -7,7 +7,7 @@ import Gen3 from './gen3';
 import Gen4 from './gen4';
 
 // 2. (Bonus) Impor file CSS
-import './Generations.css';
+import './index.css';
 
 // Ini adalah komponen "Induk" Anda
 const Generations = () => {

@@ -1,5 +1,4 @@
 import React from 'react';
-import './Header.css'; // Kita akan pakai file style dari induknya
 
 // 1. Impor gambar logo Anda
 import logoGambar from '../../assets/logo.png'; 

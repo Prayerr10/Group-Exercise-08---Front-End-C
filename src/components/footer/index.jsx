@@ -1,9 +1,9 @@
-function Footer() {
-  return (
-    <footer>
-      <p>Footer</p>
-    </footer>
-  )
+const Footer = ({ title }) => {
+    return (
+        <div> 
+            {title}
+        </div>
+    )
 }
 
-export default Footer
+export default Footer;

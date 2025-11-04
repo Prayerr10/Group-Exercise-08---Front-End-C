@@ -1,10 +1,10 @@
 import React from 'react';
 
 // 1. Impor "Anak" pertama Anda: Logo
-import Logo from './Logo';
+import Logo from './logo/logo';
 
 // 2. Impor "Anak" kedua Anda: Generations (dari tugas sebelumnya)
-import Generations from '../Generations/Generations'; 
+import Generations from './generations/index'; 
 // (Pastikan path '../Generations/Generations' ini benar)
 
 // 3. Impor CSS
